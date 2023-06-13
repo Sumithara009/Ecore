@@ -2,7 +2,7 @@
 
 void delay(void);
 
-#include <AT89S52.h>	/* include header for AT89S52 */ 
+#include <AT89S52.h>	
 void wait(int);		/* declare delay function */
 void main()
 {
@@ -27,7 +27,7 @@ void wait(int del)  /* this program generate delay in multiples of 100us */
  int i;
  for(i=0;i<100;i++)
  {}
- int c1,c2;  /* Inner and outer loop Count variables */
+ int c1,c2;  
  for(c1=0; c1<del; c1++)	/* Outer loop runs for "del" times */
  {
   for(c2=0; c2<15; c2++)  /* Inner loop runs for 15 times */
