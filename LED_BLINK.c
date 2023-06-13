@@ -1,14 +1,12 @@
 #include <AT89S52.h>
-
 void delay(void);
-
 #include <AT89S52.h>	
 void wait(int);		/* declare delay function */
 void main()
 {
  while(1)
  P2_0=1;	/*Initially turn OFF the LED */
- while(1)	/* Execute below lines in Super loop (Infinite loop) */
+ while(1)	/* Super loop (Infinite loop) */
  {
   P2_0=0;
   delay();
@@ -20,7 +18,6 @@ void main()
   wait(1);	/* Wait for sometime 100us */
  }
 }
-
 void delay(void)
 void wait(int del)  /* this program generate delay in multiples of 100us */
 {
