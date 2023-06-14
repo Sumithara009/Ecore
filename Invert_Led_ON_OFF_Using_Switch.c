@@ -1,4 +1,4 @@
-/* Read switch at P3.3 nd Turn ON the LED at p2.4 if switch is close(Initially LED is on)*/
+
 
 #include <AT89S52.h>
 #define led P2_4
