@@ -11,7 +11,7 @@ void main()
    led = OFF; /* Turn off the LED */
    while(1) /*Infinite loop*/
    {
-     if(SW1==0 && SW2==0)/*Sw1 is pressed*/
+     if(SW1==0 && SW2==0)/*Sw1 and Sw2 is pressed*/
      led = ON;
      else
      led = OFF;
