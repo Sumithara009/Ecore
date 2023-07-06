@@ -11,7 +11,7 @@ void main()
 {
    while(1)
    {
-    disp("8051");
+    disp(8051);
    }
  }
 void display(int val)
