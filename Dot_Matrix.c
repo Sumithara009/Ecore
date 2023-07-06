@@ -4,8 +4,8 @@
 const char pattern[9]={0x7E,0xBD,0xDB,0xE7,0xE7,0xDB,0xBD,0x7E};
 void main()
 {
-   Row=0x10;
-   Col=0xEF; /*for glowing of single led*/
+   /*Row=0x10;
+   Col=0xEF; for glowing of single led*/
    while(1)
    {
      char i;
