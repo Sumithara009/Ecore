@@ -1,5 +1,5 @@
 #include <AT89S52.h>
-char msg[]="";/* received message */
+char msg[20];/* received message */
 void read_serial();
 void print_serial(char*);
 
